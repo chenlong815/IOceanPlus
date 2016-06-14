@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN"> 
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>TITLE - <?php echo $config['site_name']; ?></title>
+<base href="<?php echo $url_base; ?>" />
+<link href="end_admin/view/style/admin_style.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<?php
+if (END_LANGUAGE != 'cn')
+ echo '<link href="end_admin/view/style/lang.'.END_LANGUAGE.'.css" rel="stylesheet" type="text/css" />';
+?>
+<script src="end_admin/view/js/jquery/jquery.js" type="text/javascript"></script>
+<script src="end_admin/view/js/common.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+can_not_update = false;
+can_not_delete = false;
+can_not_add = false;
+
+try {
+	document.execCommand("BackgroundImageCache",false,true);
+}catch(e){ }
+</script>
+</head>
+<body style="text-align:left">
+<?php if (check_show('add')){?>
+<form style="border:0" action="admin.php?p=upload&m=upload&for=<?php echo $for; ?>" method="post" ENCTYPE="multipart/form-data" >
+	<input type="file" style="width:150px;" size="10" name="upfile" /> <input type="submit" value="上传" /> <span style="color:orange" id="msg"><?php echo $msg; ?></span>
+	&nbsp;&nbsp;最近上传:
+	<select style="height:20px;width:300px;" onchange="insert_file(this)">
+		<option value=''> </option>
+		<?php foreach($recent as $r): ?>
+		<option 
+			value="<?php echo myurlencode($r['filepath']);?>" fname="<?php echo $r['name']; ?>">
+			(<?php echo format_date($r['mtime']);?>) <?php echo $r['name']; ?>
+		</option>
+		<?php endforeach; ?>
+	</select>
+</form>
+
+<script type="text/javascript">
+function insert_file(o)
+{
+	var index = o.selectedIndex;
+	if (index <= 0) return;
+	var option = o.options[index];
+	var url = option.value;
+	var fname = $(option).attr('fname');
+	var html = get_display_html(url,fname);
+	var ftype = fname.split('.');
+	ftype = ftype[ftype.length-1].toLowerCase();
+	//if ie and want to insert flash video
+	ckeditor_insert(html);
+	
+	o.selectedIndex = 0;
+}
+
+function ckeditor_insert(html)
+{
+	if ('<?php echo $for; ?>')
+	{
+		var editor = parent.CKEDITOR.instances['editor_<?php echo $for; ?>'];
+	}
+	else
+	{
+		for(var i in parent.CKEDITOR.instances)
+		{
+			var editor = parent.CKEDITOR.instances[i];
+		}
+	}
+	editor.insertHtml(html);
+}
+
+function get_display_html(url,fname)
+{
+	var ftype = fname.split('.');
+	ftype = ftype[ftype.length-1].toLowerCase();
+	var html = '';
+	
+	if (',jpg,jpeg,gif,png,bmp,'.indexOf(','+ftype+',') != -1)
+	{
+		html = '<img src="'+url+'" />';
+	}
+	else
+	{
+		html = '<br />附件:<a href="'+url+'" >'+fname+'</a>';
+	}
+	return html;
+}
+
+<?php if($file_url):?>
+//如果上传成功
+var html = get_display_html('<?php echo myurlencode($file_url);?>','<?php echo $filename; ?>');
+var ftype = '<?php echo $filename; ?>'.split('.');
+ftype = ftype[ftype.length-1].toLowerCase();
+ckeditor_insert(html);
+<?php endif; ?>
+
+setTimeout("document.getElementById('msg').style.display='none'",3000);
+</script>
+<?php 
+}else
+{
+	echo LANG_ACCESS_DENIED;
+}?>
+</body>
+</html>

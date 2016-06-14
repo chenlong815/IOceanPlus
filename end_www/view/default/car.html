@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- INCLUDE meta.html -->
+	<title>设置 - {$config.site_name}</title>
+</head>
+<body>
+
+<!-- INCLUDE header.html -->
+
+<div id="container" class="row-fluid">
+	<!-- INCLUDE sidebar.html -->
+	<div class="span10" style="padding-top:10px;">
+		<!-- INCLUDE crumbs.html -->
+		<div id="content-container">
+			<table class="table table-condensed table-hover">
+				<thead>
+					<tr>
+						<th>车牌号</th>
+						<th>总里程数</th>
+						<th>注册时间</th>
+						<th>备注</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					{foreach($cars as $car)}
+					<tr id="{catenate('item-tr-',$car.car_id)}">
+						<td id="{catenate('license-td-',$car.car_id)}">{$car.license}</td>
+						<td id="{catenate('miles-td-',$car.car_id)}">{$car.currentmiles}</td>
+						<td id="{catenate('date-td-',$car.car_id)}">{$car.create_time}</td>
+						<td id="{catenate('comment-td-',$car.car_id)}">{$car.comment}</td>
+						<td>
+							<button type="button" class="btn-link" data-toggle="collapse" data-target="#{catenate('item',$car.car_id)}" aria-hidden="true"><i class="icon-edit"></i></button>
+							<button class="btn-link" onclick="del_car({$car.car_id})"><i class="icon-trash"></i></button>
+						</td>
+					</tr>
+					<tr id="{catenate('details-tr-',$car.car_id)}">
+						<td id="details-td" colspan="6">
+							<div id="{catenate('item',$car.car_id)}" class="collapse">
+								<div id="details-container" class="row">
+									<form id="{catenate('editcar-form',$car.car_id)}" name="editcar-form" method="post" class="form-horizontal">
+										<div class="span5">
+											<div class="control-group">
+												<label class="control-label" for="license">车牌号：</label>
+												<div class="controls">
+													<input type="text" id="license" name='license' value="{$car.license}" required>
+												</div>
+											</div>
+											<div class="control-group">
+												<label class="control-label" for="model">型号：</label>
+												<div class="controls">
+													<input type="text" id="model" name='model' value="{$car.model}" >
+												</div>
+											</div>
+											<div class="control-group">
+												<label class="control-label" for="maintenancemiles">保养里程数：</label>
+												<div class="controls">
+													<input type="text" id="maintenancemiles" name='maintenancemiles' value="{$car.maintenancemiles}" >
+												</div>
+											</div>
+											<div class="control-group">
+												<label class="control-label" for="currentmiles">当前里程数：</label>
+												<div class="controls">
+													<input type="text" id="currentmiles" name='currentmiles' value="{$car.currentmiles}" >
+												</div>
+											</div>
+											<div class="control-group">
+												<label class="control-label" for="drivinglicensevalidity">行驶证有效期：</label>
+												<div class="controls">
+													<input type="text" id="drivinglicensevalidity" name='drivinglicensevalidity' class="datepicker" value="{$car.drivinglicensevalidity}" >
+												</div>
+											</div>
+											<div class="control-group">
+												<label class="control-label" for="comment">备注：</label>
+												<div class="controls">
+													<input type="text" id="comment" name='comment' value="{$car.comment}" >
+												</div>
+											</div>
+										</div>
+										<div class="span5">
+											<div class="control-group">
+												<label class="control-label" for="brand">品牌：</label>
+												<div class="controls">
+													<input type="text" id="brand" name='brand' value="{$car.brand}" >
+												</div>
+											</div>
+											<div class="control-group">
+												<label class="control-label" for="emissions">排量：</label>
+												<div class="controls">
+													<input type="text" id="emissions" name='emissions' value="{$car.emissions}" >
+												</div>
+											</div>
+											<div class="control-group">
+												<label class="control-label" for="initializemiles">初始里程数：</label>
+												<div class="controls">
+													<input type="text" id="initializemiles" name='initializemiles' value="{$car.initializemiles}" >
+												</div>
+											</div>
+											<div class="control-group">
+												<label class="control-label" for="roadfeesvalidity">养路费有效期：</label>
+												<div class="controls">
+													<input type="text" id="roadfeesvalidity" name='roadfeesvalidity' class="datepicker" value="{$car.roadfeesvalidity}" >
+												</div>
+											</div>
+											<div class="control-group">
+												<label class="control-label" for="insurancevalidity">保险有效期：</label>
+												<div class="controls">
+													<input type="text" id="insurancevalidity" name='insurancevalidity' class="datepicker" value="{$car.insurancevalidity}" >
+												</div>
+											</div>
+											<div class="control-group">
+												<label class="control-label" for="">NOBD序列号：</label>
+												<div class="controls">
+													<label>{$car.sn}</label>
+												</div>
+											</div>
+										</div>
+										<div class="span10 text-center">
+											<button id="{catenate('submit-edit',$car.car_id)}" class="btn btn-primary" onClick="return editcar({$car.car_id});">保存</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</td>
+					</tr>
+					{/foreach}
+				</tbody>
+			</table>
+		</div>
+		<!-- INCLUDE footer.html -->
+	</div>
+</div>
+
+
+<!-- INCLUDE script.html -->
+<script type="text/javascript">
+function del_car(id) {
+	if ( confirm("确认删除？") ) {
+		var data = {};
+		data['car_id'] = id;
+
+		$.post('?p=car&do=del',data,function(s) {
+			var ret = $.parseJSON(s);
+			if (ret.r == 'ok') {
+				alert('删除成功。');
+				$("#item-tr-"+id).remove();
+				$("#details-tr-"+id).remove();
+			}
+			else {
+				alert(ret.msg);
+			}
+		},'text');
+	}
+}
+
+function editcar(id) {	
+	$(submitid).attr('disabled','disabled').addClass('disabled').val("保存中...");
+
+	var data = '';
+	var formid = "#editcar-form"+id;
+	var submitid = "#submit-edit"+id;
+
+	data = $(formid).serialize();
+	$.post("?p=car&do=edit&id="+id,data,function(s) {
+		$(submitid).removeAttr('disabled').removeClass('disabled').val("保存");
+		var ret = $.parseJSON(s);
+		if (ret.r == 'ok') {
+			alert("保存成功。");
+			$("#license-td-"+id).empty().append(ret.data['license']);
+			$("#miles-td-"+id).empty().append(ret.data['currentmiles']);
+			$("#date-td-"+id).empty().append(ret.data['create_time']);
+			$("#comment-td-"+id).empty().append(ret.data['comment']);
+		}
+		else {
+			alert(ret.msg);
+		}
+	},'text');
+	return false;
+}
+
+$(function() {
+	showDatePocker(".datepicker");
+});
+</script>
+</body>
+</html>

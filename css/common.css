@@ -1,0 +1,34 @@
+/*
+* common.css
+* author: lidongxu
+* description: common style definition
+*/
+
+#container {
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+#content-container {
+	min-height: 600px;
+}
+
+#sidemenu {
+	background-color: #eeeeee;
+	margin-bottom: -3000px;
+	padding-bottom: 3000px;
+}
+
+#login-header {
+	margin-top: 40px;
+}
+
+#details-td {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border:0px;
+}
+
+#details-container {
+	padding: 8px 0px;
+}

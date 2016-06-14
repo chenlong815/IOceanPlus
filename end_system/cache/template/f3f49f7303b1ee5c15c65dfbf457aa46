@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN"> 
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title> 内容管理 - <?php echo $config['site_name']; ?></title>
+<base href="<?php echo $url_base; ?>" />
+<link href="end_admin/view/style/admin_style.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<?php
+if (END_LANGUAGE != 'cn')
+ echo '<link href="end_admin/view/style/lang.'.END_LANGUAGE.'.css" rel="stylesheet" type="text/css" />';
+?>
+<script src="end_admin/view/js/jquery/jquery.js" type="text/javascript"></script>
+<script src="end_admin/view/js/common.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+can_not_update = false;
+can_not_delete = false;
+can_not_add = false;
+
+try {
+	document.execCommand("BackgroundImageCache",false,true);
+}catch(e){ }
+</script>
+</head>
+<body>
+<div class='maindiv'>
+
+<div class="headerdiv">
+	<div id="admin_logo">
+	<h1><a href="admin.php" target="_blank"><?php echo $config['site_name']; ?></a></h1>
+	<div id="admin_info">
+		 登录为: <span class="username"><?php echo $_SESSION['login_user']['name']; ?></span> 
+		<a href="admin.php?p=account">&nbsp;&nbsp;&nbsp;修改密码</a> 
+		<a href="admin.php?p=login&m=logout&module=admin&backurl=admin.php"> &nbsp;&nbsp;&nbsp;注销&nbsp;&nbsp;</a>
+	</div>
+</div>
+<div id="admin_menu">
+<ul>
+    <ul>
+		
+		<li><a href='admin.php' <?php 
+		if (END_CONTROLLER == "index") echo " class='hover' "
+		?>> 后台首页</a></li>
+        <?php
+
+	$display_controllers = array(
+		'item',
+		'category',
+		'config',
+		'admin',
+		'extension'
+	);
+	
+	foreach($display_controllers as $_p)
+	{
+		if (END_ENABLE_EXTENSION == false && $_p == 'extension') continue;
+		if (!$_SESSION['login_user']['allowed_controllers'][$_p]) continue;
+		echo "<li><a  ";
+		if (END_CONTROLLER == $_p) echo " class='hover' ";
+		echo "href='admin.php?p=$_p'>".lang('NAVI_'.$_p)."</a></li>";
+	}
+	?>
+	</ul>
+  </ul>
+</div>
+<script>
+<?php if (!check_show('update')):?>
+can_not_update = true;
+<?php endif;?>
+</script>
+
+</div>
+
+<div id='content'>
+	<div id='admin_left' onselectstart="return false;">
+		<div id="admin_left_b">
+	    	<div class="module">
+	        	<h2>栏目树</h2>
+				<div id="category_tree" style="display:none">
+					<ul>
+						<li><a href="admin.php?p=item" <?php if($category_id=="0"):?>class="tree_on" <?php endif; ?> > 根栏目</a></li>
+						<li><?php echo $all_category; ?></li>
+					</ul>
+					<div style="clear:both;"></div>
+				</div>
+	        </div>
+		</div>
+    </div>
+
+    <div id='main'>
+	
+        <div id="main_b">
+			<div id="position">
+				 当前位置: 内容管理 > <a href="admin.php?p=item">根栏目</a> > 
+				<?php foreach($position as $p): ?>
+				 <a href="admin.php?p=item&category_id=<?php echo $p['category_id']; ?>"><?php echo $p['name']; ?></a> > 
+				<?php endforeach; ?>
+			</div>
+			
+			<?php if($err_msg):?>
+			<div class="error">
+			<?php echo $err_msg; ?>
+			</div>
+			<?php endif; ?>
+			
+	  	    <?php if($page_content):?>
+		        	<?php echo $page_content; ?>
+					<br />
+		    <?php else: ?>
+			
+			
+			<div id="admin_content">
+			<?php if($this_category['is_list']):?>
+				<?php if($category_id):?>
+				<div class="nav_wrapper">
+					&nbsp;功能:
+					<?php if(check_show('add')){?>
+					<a class="nav" href="admin.php?p=item&action=new_item&category_id=<?php echo $category_id; ?>"> 添加</a>
+					<?php };?>
+				</div>
+				<?php endif; ?>
+				
+				
+				<?php if($statuses):?>
+				<div class="nav_wrapper">
+					&nbsp;显示:
+					<a 
+						href="admin.php?p=item&category_id=<?php echo $category_id; ?>"  
+						class="nav <?php if($current_status_all):?>nav_on<?php endif; ?>">所有</a>
+					<?php foreach($statuses as $index=>$s): ?>
+					<a 
+						href="admin.php?p=item&status=<?php echo $s['index']; ?>&category_id=<?php echo $category_id; ?>" 
+						class="nav <?php if($s['index']==$status):?>nav_on<?php endif; ?>"><?php echo strip_tags($s['value']);?></a>
+					<?php endforeach; ?>
+				</div>
+				<?php endif; ?>
+			
+				<?php echo $list_content; ?>
+			
+			<?php else: ?>
+				<?php if($category_id):?>
+					<h2>栏目类型: <?php echo $category_type; ?></h2>
+					<?php if($category['system'] == 'no'):?><a href="admin.php?p=category&action=edit_category&category_id=<?php echo $category_id; ?>"> 编辑</a><?php endif; ?>
+					<table class="view-table">
+					<?php
+					if (is_array($category_fields)) {
+					    foreach($category_fields as $key=>$field)
+                        {
+                        echo '<tr>';
+                        echo '<th>'.$field['name'].'</th>';
+                        echo '<td>'.$category[$key].'</td>';
+                        echo '</tr>';
+                        }
+					}
+					?>
+					</table>
+				<?php else: ?>
+				<!--
+					TODO 内容管理首页
+				-->
+				<?php endif; ?>
+			<?php endif; ?>
+			</div>
+        <?php endif; ?>
+        </div>
+    </div>
+	<div style="clear:both;"></div>
+</div>
+
+<script type="text/javascript">
+$(function()
+{
+	var root = $('#category_tree').children('ul');
+	root.find('a.status_folder').click(function(event)
+	{
+		event.preventDefault();
+		$(this).prev().trigger('click');
+		return false;
+	});
+});
+
+function delete_item(id,o)
+{
+	if (!confirm('确定要删除吗？')) return;
+	$(o).attr('to_be_delete','yes').html(' ...').unbind('click');
+	$.post('admin.php?p=ajax&m=delete&table=<?php echo $table; ?>&id='+id,{ },delete_callback);
+}
+function delete_callback(s)
+{
+	if (s == 'error')
+	{
+		alert('DELETE_ERROR');
+		return false;
+	}
+	$('[to_be_delete=yes]').parents('tr').fadeOut();
+}
+function change_category(o)
+{
+	if ($(o).val())
+	{
+		window.location = "admin.php?p=item&category_id="+ $(o).val();
+	}
+}
+
+function change_status(id,value,o)
+{
+	$(o).attr('to_be_delete','yes').html(' ...').unbind('click');
+	$.post('admin.php?p=ajax&m=update&column=status&table=<?php echo $table; ?>&id='+id,{ value:value },function(s)
+	{
+		if (parseInt(s) != s)  alert(s);
+		else
+			delete_callback();
+	});
+}
+</script>
+<div id="footer">
+&copy; 北京深联智达科技有限公司 (<?php echo $time_used; ?>s)
+</div>
+<script src="end_system/plugin/ckeditor/ckeditor.js"></script>
+<script>
+var gap = $(window).height() - $(document.body).height() - 2;
+if (gap > 0)
+{
+        //$('#main_b').height($('#main_b').height() + gap);
+        //$('#admin_left_b').height($('#admin_left_b').height() + gap);
+}
+//是否启动点击编辑功能
+if (!can_not_update) load_admin();
+//替换富文本编辑框
+if ($('textarea[rich]').length > 0)
+{
+        $('textarea[rich]').each(function()
+        {
+                CKEDITOR.replace( this.id,
+                {
+                        height:$(this).height(),
+                        skin:'v2',
+                        width:$(this).width()
+                });
+        });
+}
+
+var endcms = {  };
+endcms.lang = {  };
+endcms.lang.search = "<?php echo lang('Search');?>";
+endcms.lang.searchBt = "<?php echo lang('Search_button');?>";
+endcms.lang.cancelSearch = "<?php echo lang('Cancel_Search');?>";
+endcms.lang.searchInfo = "<?php echo lang('star_available');?>";
+</script>
+
+</div>
+</body>
+</html>

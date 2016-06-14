@@ -1,0 +1,68 @@
+<?php foreach($tree as $c): ?>
+<tr style="display:<?php if($c['depth'] > 0):?>none<?php endif; ?>;"   depth="<?php echo $c['depth']; ?>" category_id="<?php echo $c['category_id']; ?>" parent_id="<?php echo $c['parent_id']; ?>" ntype="line" >
+	<td>
+		<table cellspacing="0" cellpadding="0" border="0" style="border:0; width:100%;">
+		<tr>
+		<td style="border:0; width:<?php echo $depth*20+1;?>px; ">&nbsp;</td>
+		<td style="border:0;width:20px; text-align:center;cursor:pointer" onclick="open_children(<?php echo $c['category_id']; ?>,this,<?php echo $depth; ?>)" >
+			<img src="end_admin/view/images/plus.png"  rel="pointer" />
+		</td>
+		<td style="border:0;">
+		<?php if ($c['system'] == 'yes'):?>
+			<?php echo $c['name']; ?>
+		<?php else: ?>
+			<div 
+				admin_type="text" 
+				admin_para="m=update&table=category&column=name&id=<?php echo $c['category_id']; ?>"><?php echo $c['name']; ?></div>
+		<?php endif; ?>
+		</td>
+		</tr>
+		</table>
+	</td>
+	<td style="text-align:center">
+		<?php echo $c['category_id']; ?>
+	</td>
+               	<td>
+		<div admin_type="text" admin_para="m=update&table=category&column=order_id&id=<?php echo $c['category_id']; ?>"  style="text-align:center"><?php echo $c['order_id']; ?></div>
+	</td>
+               	<td>
+		<?php if ($c['system'] == 'yes'):?>
+			<?php echo $c['url']; ?>
+		<?php else: ?>
+			<div admin_type="text"  admin_para="m=update&table=category&column=url&id=<?php echo $c['category_id']; ?>"><?php echo $c['url']; ?></div>
+		<?php endif; ?>
+	</td>
+	<td>
+		<?php if ($c['system'] == 'yes'):?>
+			<?php echo show_status($c['status']);?>
+		<?php else: ?>
+		<div admin_type="text" 
+			admin_para="m=update&table=category&column=status&id=<?php echo $c['category_id']; ?>" 
+			admin_select_value="<?php echo $c['status']; ?>"
+			admin_select_source_id="status_select"
+			admin_trigger="click" status_category_id="<?php echo $c['category_id']; ?>"><?php echo show_status($c['status']);?></div>
+		<?php endif; ?>
+	</td>
+	<?php if ( END_DEBUG == true):?>
+		<td>
+			<div admin_type="text"
+				admin_para="m=update&table=category&column=system&id=<?php echo $c['category_id']; ?>" 
+				admin_select_value="<?php echo $c['system']; ?>"
+				admin_select_source_id="category_system_select"
+				admin_trigger="click" status_category_id="<?php echo $c['category_id']; ?>"><?php echo $c['system']; ?></div>
+		</td>
+	<?php endif; ?>
+	<td>
+                          	<?php if (check_show('delete')):?>
+			<?php if ($c['system'] == 'no'):?>
+				<a href="javascript:;" onclick="delete_category(<?php echo $c['category_id']; ?>,this,'<?php echo addslashes($c['name']);?>');"> 删除</a>
+			<?php endif; ?>
+		<?php endif; ?>
+		<?php if (check_show('update')):?>
+			<?php if ($c['system'] == 'no'):?>
+                          			<a href="admin.php?p=category&action=edit_category&category_id=<?php echo $c['category_id']; ?>"> 编辑</a>
+			<?php endif; ?>
+		<?php endif; ?>
+	</td>
+</tr>
+<?php endforeach; ?>

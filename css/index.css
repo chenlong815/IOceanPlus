@@ -1,0 +1,194 @@
+body 
+{ 
+	color: #333
+	line-height:1.6em;
+}
+
+#content .folder
+{
+	margin-top:5px;
+}
+
+#content .folder .f-title-bar
+{
+	background-color: #DDD;
+	padding-left: 10px;
+	position:relative;
+	height:30px;
+	line-height:30px;
+	font-size:20px;
+}
+
+#content .folder .f-btn, #content .folder .l-btn
+{
+	float:left;
+}
+
+#content .folder .f-btn
+{
+	margin-right:5px;
+}
+#content .folder .f-btns
+{
+	position:absolute;
+	right:3px;
+	display:none;
+	top:3px;
+}
+
+#content.edit .folder .f-title-bar:hover .f-btns
+{
+	display:block;
+}
+
+#content .link, #content .link-holder
+{
+	border:0;
+	float:left;
+	width:200px;
+	height:20px;
+	position:relative;
+	margin:5px 10px 5px 0;
+}
+
+#content.edit  .link a { cursor:move; }
+
+#content .link .l-btns
+{
+	float:left;
+	padding-left:5px;
+	display:none;
+}
+
+#content .f-content
+{
+	min-height:20px;
+	background-color:#fff;
+	margin-bottom:10px;
+}
+
+#content.edit .link:hover .l-btns
+{
+	display:block;
+}
+
+#content.edit .link.ui-sortable-helper .l-btns { display:none; }
+
+#content .link .l-name
+{
+	float:left;
+	background:transparent no-repeat 0 50%;
+	padding-left:20px;
+}
+
+.ui-dialog form
+{
+	margin-bottom:0;
+}
+
+#reg-form h1{}
+
+#header 
+{
+	border-bottom:1px solid #eee;
+	padding:10px 0;
+	margin-bottom:10px;
+}
+
+#header .logo { float:left; }
+
+#header .nav { float:left; margin-bottom:0;}
+#header .nav > li { float:left; padding: 0; margin:0 5px;}
+#header .nav > li > a { height:30px; line-height:30px; padding:0 10px; margin-top:10px; border-radius:4px;}
+#header .nav li.active > a { background-color:#08c; color:white;  }
+#header .toolbar-user { margin-top:10px; }
+#header .nav li.btn-group a { font-size:14px; }
+
+#footer { border-top:1px solid #eee; padding:20px 0; }
+
+label.item-label { float:left; line-height:20px; margin-right:10px; -webkit-user-select:none; }
+label.item-label input { float:left; margin-right:2px; }
+
+.extra-label { clear:both; }
+.extra-label label { float:left; line-height:30px; }
+.label-textarea { min-height:80px; min-width:90%; }
+
+#detail-form .control-label { margin:0; padding:0; font-weight:bold;}
+#detail-form .options-span { margin:0; margin-right:5px; cursor:default; border-radius:4px; padding:0 5px; display:inline; }
+#detail-form .options-span:hover { background-color:#eee; }
+.items-block .table {  }
+
+.activity-form
+{
+	border:1px solid #aaa;
+	border-radius:4px;
+	padding:10px;
+	margin-bottom:10px;
+}
+
+.activity-form h2 { font-size:18px; margin:10px 0; padding:0; line-height:20px; padding-bottom:10px; text-align:center; }
+
+#items { margin-top:20px; }
+#items .item { position:relative; margin-left:50px; margin-bottom:20px; }
+#items .item .option-number { float:left; padding:0 3px; background-color:#eee; margin-right:5px; width:15px; text-align:center; line-height:25px; cursor:move;}
+#items .item .item-float-left { position:absolute; left:-40px; } 
+#items .item .item-float-left .number { background-color:#eee; text-align:center; cursor:move; line-height:25px; }
+
+#items .item textarea.input-block-level { height:30px; overflow:hidden; max-width:802px;}
+#items .item .options { margin-top:5px; }
+#items .item .option { margin-bottom:5px; }
+#items .item .option .option-name { width: 330px; }
+#items .item .option .option-point { width:100px; }
+
+#items .item2 { margin-top:5px; }
+#items .item2 .item2-number { float:left; padding:0 3px; background-color:#eee; margin-right:5px; width:15px; text-align:center; line-height:25px; cursor:move; }
+#items .item2 .item2-name { width: 330px; }
+#items .item2 .item2-point { width:100px; }
+
+
+
+
+.placeholder { color:#999 !important; }
+
+#suzhidian-options { box-shadow:1px 1px 3px rgba(0,0,0,0.3); display:none; z-index:2; max-height:300px; overflow:auto;  border:1px solid #999; width:100px; position:absolute; left:0; top:0; background-color:white; }
+#suzhidian-options .suzhidian { padding: 0 3px;  cursor:pointer; }
+#suzhidian-options .suzhidian:hover { background-color:#eee; }
+#edit-form-page .container { width:940px !important; }
+
+
+ul.sub-nav { list-style:none;padding:0;margin:0; margin-left:20px; }
+ul.sub-nav li { float:left; font-size:14px; margin:0 2px; margin-top:30px; }
+ul.sub-nav li a { padding:3px 10px; border-radius:4px; }
+ul.sub-nav li a:hover { background-color:#eee; text-decoration:none; }
+ul.sub-nav li.active a { background-color: #08c;color: white; } 
+ul.sub-nav li.active a i { background-image: url("../img/glyphicons-halflings-white.png");}
+
+#stu-photo
+{
+	width:200px;
+	height:auto;
+	position:absolute;
+	right:100px;
+	top:100px;
+}
+
+#stu-photo input { width:180px; }
+
+
+.analysis_inline{
+    display: inline-block;
+    float: right;
+}
+
+.login-form{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

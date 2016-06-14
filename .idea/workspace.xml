@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff08788e-ba47-429b-a508-262067f8a73b" name="默认的" comment="first Git">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/Fixtures/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/100.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/2013/07/2013_07_25_11_55_40_2637.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/54.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/55.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/56.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/58.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/59.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/61.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/62.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/63.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/65.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/66.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/67.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/68.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/70.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/72.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/73.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/74.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/75.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/76.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/77.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/78.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/79.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/80.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/81.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/82.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/83.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/84.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/85.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/86.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/87.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/88.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/89.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/90.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/91.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/92.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/93.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/94.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/95.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/96.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/97.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/98.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/images/99.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/2013/12/HelloWorld.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/admin_left_titbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/admin_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/admin_logo_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/admin_logo_en.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/admin_menu_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/admin_menu_li.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/admin_menu_li_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/admin_xs_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/cn/ajax.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/en/ajax.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/link/images/anchor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/animated-overlay.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/asc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/showblocks/images/block_address.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/showblocks/images/block_blockquote.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/showblocks/images/block_div.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/showblocks/images/block_h1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/showblocks/images/block_h2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/showblocks/images/block_h3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/showblocks/images/block_h4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/showblocks/images/block_h5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/showblocks/images/block_h6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/showblocks/images/block_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/showblocks/images/block_pre.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/con_icon1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/con_icon2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/con_icon3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/en/config.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/default_extension_icon.png100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/default_extension_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/desc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/skins/v2/images/dialog_sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/skins/v2/images/dialog_sides.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/skins/v2/images/dialog_sides_rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/endadmin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/endlogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/folder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/fragment.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/uicolor/yui/assets/hue_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/uicolor/yui/assets/hue_thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/extension/end_device_manage/icon.png100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/extension/end_show_jpush/icon.png100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/extension/end_show_log/icon.png100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/extension/end_show_log/icon.png60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/extension/end_device_manage/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/extension/end_show_jpush/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/extension/end_show_log/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/skins/v2/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/left_icon1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/left_icon2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/left_mk_d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/left_mk_x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/left_search_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/login_logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/login_r2_c2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/login_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/main_kj_a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/main_kj_hover.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/skins/v2/images/mini.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/skins/v2/images/noimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/page.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/pagebreak/images/pagebreak.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/uicolor/yui/assets/picker_mask.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/uicolor/yui/assets/picker_thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/flash/images/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/position_icon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/refresh.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/search_btn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/images/spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/skins/v2/images/sprites.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/skins/v2/images/sprites_ie6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/sys_h3_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/sys_logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/sys_tit_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/images/system_info_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/templates/templates/images/template1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/templates/templates/images/template2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/templates/templates/images/template3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/skins/v2/images/toolbar_start.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/css/ui-lightness/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/css/ui-lightness/images/ui-icons_228ef1_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/css/ui-lightness/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/uicolor/uicolor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/psr/log/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/0eb7edb618054554a8f85f6a554d8d91" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/11864c1fcf8f7b9dfa948916209509bc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/2190fea5c1c84f45ef05ed828db92b46" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/286f61f3e62233b65d798c8c1f48c1f1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/2909b5cdea176534e58a38531a54ecd4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/3352f27707762aa58d10bca115fbdfe9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/3945e22d97895f89748c27e82b188450" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/55a5060301f13bcd6df8579eda4350b1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/59d2da739ed7591b183075c746d6e867" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/5a967a273d633d233edba8eb633c1967" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/99bad02247f3eae83c76aa3fe371b715" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/9ed0cf2942d5ba8369efb3bc0060395a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Exception/APIConnectionException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Exception/APIRequestException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/AbstractHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/psr/log/Psr/Log/AbstractLogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/AbstractProcessingHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/AbstractSyslogHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ActivationStrategyInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/AmqpHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/AmqpHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Model/Audience.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/tests/Bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/src/Httpful/Bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/BrowserConsoleHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/BrowserConsoleHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/BufferHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/BufferHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/CHANGELOG.mdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ChannelLevelActivationStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Formatter/ChromePHPFormatterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/ChromePHPHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/ChromePHPHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/composer/ClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/src/Httpful/Exception/ConnectionErrorException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/CouchDBHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/CouchDBHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/src/Httpful/Handlers/CsvHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/CubeHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/examples/DeviceExample.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Model/DeviceResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/tests/DeviceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/DoctrineCouchDBHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/DoctrineCouchDBHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/DynamoDbHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/DynamoDbHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/ElasticSearchHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/ElasticSearchHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Formatter/ElasticaFormatter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Formatter/ElasticaFormatterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/ErrorHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/ErrorHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ErrorLevelActivationStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/ErrorLogHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/ErrorLogHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/ExceptionTestHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/FilterHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/FilterHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossedHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/FingersCrossedHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/FirePHPHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Functional/Handler/FirePHPHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/FirePHPHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/FleepHookHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/FleepHookHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Formatter/FlowdockFormatter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Formatter/FlowdockFormatterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/FlowdockHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/FlowdockHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/src/Httpful/Handlers/FormHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Formatter/FormatterInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/GelfHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/GelfHandlerLegacyTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/GelfHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Formatter/GelfMessageFormatter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Formatter/GelfMessageFormatterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Processor/GitProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Processor/GitProcessorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/GroupHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/GroupHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/HandlerInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/src/Httpful/Response/Headers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/2013/12/HelloWorld.jad" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/HipChatHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/HipChatHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Formatter/HtmlFormatter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/src/Httpful/Http.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/src/Httpful/Httpful.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/tests/Httpful/HttpfulTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Processor/IntrospectionProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Processor/IntrospectionProcessorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/psr/log/Psr/Log/InvalidArgumentException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/JPushClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/JPushLog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Formatter/JsonFormatterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/src/Httpful/Handlers/JsonHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/psr/log/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Formatter/LineFormatterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/LogEntriesHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/LogEntriesHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/psr/log/Psr/Log/LogLevel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Logger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/psr/log/Psr/Log/LoggerAwareInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/psr/log/Psr/Log/LoggerAwareTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/psr/log/Psr/Log/LoggerInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/LoggerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/psr/log/Psr/Log/LoggerTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Formatter/LogglyFormatter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Formatter/LogglyFormatterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/LogglyHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Formatter/LogstashFormatter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Formatter/LogstashFormatterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/MailHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/MailHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/MandrillHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Processor/MemoryPeakUsageProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Processor/MemoryPeakUsageProcessorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Processor/MemoryProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Processor/MemoryUsageProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Processor/MemoryUsageProcessorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Model/Message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Model/MessageAndroid.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Model/MessageIOS.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Model/MessageItem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Model/MessageResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/src/Httpful/Mime.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/src/Httpful/Handlers/MimeHandlerAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/MissingExtensionException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/MockRavenClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/MongoDBHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/MongoDBHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/NativeMailerHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/NativeMailerHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/NewRelicHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/NewRelicHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Formatter/NormalizerFormatterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Model/Notification.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/NullHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/NullHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/psr/log/Psr/Log/NullLogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Model/Options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Model/Platform.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Processor/ProcessIdProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Processor/ProcessIdProcessorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/src/Httpful/Proxy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/PsrLogCompatTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Processor/PsrLogMessageProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Processor/PsrLogMessageProcessorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/examples/PushExample.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/examples/PushExample2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Model/PushPayload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/tests/PushPayloadTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Model/PushResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/tests/PushTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/PushoverHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/PushoverHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/examples/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/src/Httpful/Handlers/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/psr/log/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/README.mdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/RavenHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/RavenHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/RedisHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/RedisHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Registry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Model/Report.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/examples/ReportExample.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Model/ReportResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/tests/ReportTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/src/Httpful/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/src/Httpful/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/RollbarHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/RotatingFileHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Formatter/ScalarFormatter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Formatter/ScalarFormatterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/SlackHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/SlackHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/SocketHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/SocketHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/StreamHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/SwiftMailerHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/SyslogHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/SyslogHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdpHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/SyslogUdpHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Processor/TagProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Processor/TagProcessorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/TestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/TestHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/TestHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdp/UdpSocket.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/UdpSocketTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Processor/UidProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Processor/UidProcessorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/src/JPush/Model/UserResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/examples/ValidateExample.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/tests/ValidateTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Processor/WebProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Processor/WebProcessorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/WhatFailureGroupHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/WhatFailureGroupHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Formatter/WildfireFormatter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Formatter/WildfireFormatterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/src/Httpful/Handlers/XHtmlHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/src/Httpful/Handlers/XmlHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/src/Monolog/Handler/ZendMonitorHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/Monolog/Handler/ZendMonitorHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/lang/_languages.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/lang/_translationstatus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/about/dialogs/about.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/account.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/cn/account.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/en/account.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/controller/account.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/activity_search.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/add_data.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/addcar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/admin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/js/admin.js.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/js/admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/cn/admin.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/en/admin.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/model/admin.model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/controller/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/admin_left.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/admin_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/admin_new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/style/admin_style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/controller/ajax.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/link/dialogs/anchor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/doc/api.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/autogrow.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/composer/autoload_classmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/composer/autoload_files.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/composer/autoload_namespaces.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/composer/autoload_psr4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/composer/autoload_real.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/backbone-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/beb0fbe6ac7b4ed6a304ac638909b628" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap-carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/tests/bootstrap-server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-cs-CZ.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-da-DK.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-de-DE.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/extensions/editable/bootstrap-table-editable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-el-GR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-en-US.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-es-AR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-es-CR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-es-NI.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/extensions/export/bootstrap-table-export.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/extensions/filter/bootstrap-table-filter.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/extensions/flatJSON/bootstrap-table-flatJSON.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-fr-BE.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-fr-FR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-hu-HU.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-it-IT.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-ko-KR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-nl-NL.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-pl-PL.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-pt-BR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-ru-RU.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-sk-SK.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-th-TH.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-tr-TR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-ur-PK.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-vi-VN.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-zh-CN.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/locale/bootstrap-table-zh-TW.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/bootstrap-table.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-table-1.5.0/bootstrap-table.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/tests/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrapValidator.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrapValidator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/build" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/forms/dialogs/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/car.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/controller/car.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/category.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/cn/category.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/en/category.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/model/category.model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/controller/category.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/category_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/category_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/category_list_item.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/category_new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/forms/dialogs/checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/wsc/dialogs/ciframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/ckeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/ckeditor.pack" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/ckeditor_basic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/ckeditor_basic_source.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/ckeditor_source.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/phpmailer/class.phpmailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/library/class.quickskin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/phpmailer/class.smtp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/colordialog/dialogs/colordialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/js/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/cn/common.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/en/common.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/helper/common.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/common.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/helper/common.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/helper/common_api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/examples/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/psr/log/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/config.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/JPush/config.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/cn/config.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/model/config.model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/controller/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/extension/end_device_manage/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/extension/end_show_jpush/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/extension/end_show_log/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/config.sample.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/config_new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/cn/config_php.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/en/config_php.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/contents.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/helper/core.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/crumbs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/d5a9a8828a950349e3852462e8c914ec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/JPush/db.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/stylescombo/styles/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/templates/templates/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/skins/v2/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/dialog/dialogDefinition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/docs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/e3ddf1a74a3d423e54373a1cfbe37c19" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/eacf331f0ffc35d4b482f1d15a887d3b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/controller/edit_field.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/edit_fields.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/skins/v2/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/uicolor/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/end_cms.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/extension/end_show_log/end_show_log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/library/enddb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/library/endskin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/controller/error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/exit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/doc/extending.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/extension.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/cn/extension.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/en/extension.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/controller/extension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/cache/template/f3f49f7303b1ee5c15c65dfbf457aa46" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/find/dialogs/find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/flash/dialogs/flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/controller/forget.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/controller/forgetpassword.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/forms/dialogs/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/examples/freebase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/controller/get_code.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/examples/github.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/forms/dialogs/hiddenfield.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/highcharts-more.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/model/hook.model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/helper/hooks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/helper/hooks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/html.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/helper/html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/helper/html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/iehack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/image/dialogs/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/library/image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/style/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/cn/index.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/en/index.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/controller/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/extension/end_device_manage/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/extension/end_show_jpush/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/JPush/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/controller/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/JPush/install.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/composer/installed.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/api/1/internet_control_baseStation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/item.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/cn/item.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/en/item.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/controller/item.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/item_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/item_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/item_view.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/JPush/jpush.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/js/jquery-1.7.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/js/jquery-1.9.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/css/ui-lightness/jquery-ui-1.8.21.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/js/jquery-ui-1.8.21.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryui/js/jquery-ui.1.10.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/js/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/js/jquery/jquery.pngFix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/style/lang.en.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/style/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/left.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/link/dialogs/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/liudan.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/controller/liudan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/library/loader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/location.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/model/log.model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/JPush/log.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/login-header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/cn/login.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/en/login.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/controller/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/controller/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/controller/logout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/meta.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/meta.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/library/model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/library/mssql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/library/mysql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/nobd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/controller/nobd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/scayt/dialogs/options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/examples/override.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/controller/page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/clipboard/dialogs/paste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/pastefromword/dialogs/pastefromword.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/pastetext/dialogs/pastetext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/jpush/jpush/tests/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/tests/phpunit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/placeholder.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/about/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/basicstyles/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/blockquote/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/button/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/clipboard/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/colorbutton/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/colordialog/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/contextmenu/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/dialog/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/dialogui/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/domiterator/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/editingblock/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/elementspath/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/enterkey/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/entities/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/fakeobjects/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/filebrowser/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/find/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/flash/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/floatpanel/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/font/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/format/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/forms/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/horizontalrule/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/htmldataprocessor/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/htmlwriter/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/iframedialog/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/image/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/indent/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/justify/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/keystrokes/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/link/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/list/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/listblock/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/maximize/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/menu/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/menubutton/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/newpage/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/pagebreak/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/panel/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/panelbutton/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/pastefromword/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/pastetext/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/popup/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/preview/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/print/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/removeformat/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/resize/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/richcombo/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/save/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/scayt/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/selection/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/showblocks/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/sourcearea/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/specialchar/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/styles/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/stylescombo/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/tab/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/table/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/tabletools/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/templates/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/toolbar/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/uicolor/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/undo/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/wsc/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/wysiwygarea/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/print_common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/controller/profile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/forms/dialogs/radio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/controller/register.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/tests/Httpful/requestTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/resetpassword.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/JPush/respond.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/rights.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/cn/rights.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/en/rights.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/model/rights.model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/controller/rights.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/rights_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/rights_new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/script.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/forms/dialogs/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/JPush/send.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/JPush/send_api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/setting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/api/1/shipping_abstract_activity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/api/1/shipping_abstract_aisshiprealtime.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/api/1/shipping_abstract_country.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/api/1/shipping_abstract_grid.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/api/1/shipping_abstract_grid_area.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/api/1/shipping_abstract_grid_new.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/api/1/shipping_abstract_historyactivity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/api/1/shipping_abstract_historyday.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/api/1/shipping_abstract_historyhour.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/api/1/shipping_abstract_historyhour_new.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/api/1/shipping_abstract_hour.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/api/1/shipping_abstract_mmsi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/api/1/shipping_abstract_second.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/api/1/shipping_abstract_type.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/examples/showclix.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/sidebar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/site_config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/skins/v2/skin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/smiley/dialogs/smiley.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/doc/sockets.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/view/default/status.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/controller/student_home.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/table/dialogs/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/tcal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tcal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/controller/teacher_home.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/skins/v2/templates.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/templates/dialogs/templates.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/nategood/httpful/tests/static/test.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/forms/dialogs/textarea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/forms/dialogs/textfield.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/themes/default/theme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/scayt/dialogs/toolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/uicolor/dialogs/uicolor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/view/upload.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/cn/upload.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/language/en/upload.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/controller/upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/controller/upload_photo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_www/controller/upload_stu_photo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_admin/library/vendor/monolog/monolog/doc/usage.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/wechat20140717.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/wsc/dialogs/wsc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/wsc/dialogs/wsc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/uicolor/yui/assets/yui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/plugins/uicolor/yui/yui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/end_system/plugin/ckeditor/lang/zh.js" />
+    </list>
+    <ignored path="goodmessage.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="goodmessage" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/end_www/model/test_device_manage/device_data_log.model.php" />
+        <option value="$PROJECT_DIR$/end_www/model/test_device_manage/device_data_log.config.php" />
+        <option value="$PROJECT_DIR$/end_system/cache/template/59d2da739ed7591b183075c746d6e867" />
+        <option value="$PROJECT_DIR$/end_admin/view/meta.html" />
+        <option value="$PROJECT_DIR$/end_www/model/device_manage_log/device_manage_log.model.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/saveDevicePara.php" />
+        <option value="$PROJECT_DIR$/end_www/model/test_device_manage/test_device_manage.model.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/saveDeviceUpdateFile.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/quanbao.data.getModeDataList.php" />
+        <option value="$PROJECT_DIR$/end_www/model/device_data_log/device_data_log.config.php" />
+        <option value="$PROJECT_DIR$/end_www/model/device_para_log/device_para_log.config.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/device_manage.php" />
+        <option value="$PROJECT_DIR$/end_www/model/test_device_manage/test_device_manage.config.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/quanbao.news.publishNews.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/news_model.html" />
+        <option value="$PROJECT_DIR$/end_www/api/1/test.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/quanbao.device.update.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/quanbao.device.isOnLine.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/quanbao.device.add.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/op.news.uploadNewsId.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/quanbao.news.uploadNewsId.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/quanbao.device.setDeviceMode.php" />
+        <option value="$PROJECT_DIR$/end_www/model/device_mode_log/device_mode_log.config.php" />
+        <option value="$PROJECT_DIR$/end_www/model/device_mode_log/device_mode_log.model.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/quanbao.data.getHourData.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/isDeviceUpdating.php" />
+        <option value="$PROJECT_DIR$/end_admin/extension/end_device_manage/index.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/op.news.getRecentNews.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/plants.news.publishNews.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/chenlong.php" />
+        <option value="$PROJECT_DIR$/end_www/config.php" />
+        <option value="$PROJECT_DIR$/end_system/index.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/shipping_abstract.php" />
+        <option value="$PROJECT_DIR$/end_system/library/mysql.php" />
+        <option value="$PROJECT_DIR$/end_system/api.php" />
+        <option value="$PROJECT_DIR$/end_admin/controller/login.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/shipping_abstract_activity.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/shipping_abstract_country.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/shipping_abstract_type.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/shipping_abstract_grid.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/shipping_abstract_hour.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/shipping_abstract_historyhour.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/internet_control_baseStation.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/shipping_abstract_mmsi.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/shipping_abstract_aisshiprealtime.php" />
+        <option value="$PROJECT_DIR$/end_system/config.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/shipping_abstract_historyactivity.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/shipping_abstract_grid_new.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/shipping_abstract_grid_area.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/shipping_abstract_second.php" />
+        <option value="$PROJECT_DIR$/end_www/api/1/shipping_abstract_historyhour_new.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <option name="servers">
+      <server deployment_server="39cadb1b-92ef-47ce-b143-c8d92179f400" host="localhost" name="localhost" validation_dir="D:\Program Files\xampps\htdocs\quanbao" />
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php-5.5.11" />
+  <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="localhost" port="80" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="添加" />
+    <OptionsSetting value="true" id="移除" />
+    <OptionsSetting value="true" id="签出" />
+    <OptionsSetting value="true" id="更新" />
+    <OptionsSetting value="true" id="状态" />
+    <OptionsSetting value="true" id="编辑" />
+    <ConfirmationsSetting value="0" id="添加" />
+    <ConfirmationsSetting value="0" id="移除" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="end_cms_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="end_cms_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="end_cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="Configurable.PHP.Servers" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\xampp\htdocs\end_cms\end_www\api\1" />
+      <recent name="G:\xampp\htdocs\endCms\end_www\api\1" />
+      <recent name="D:\Program Files\xampps\htdocs\quanbao\end_www\api\1" />
+      <recent name="D:\Program Files\xampps\htdocs\quanbao\end_admin\controller" />
+      <recent name="D:\Program Files\xampps\htdocs\quanbao\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Program Files\xampps\htdocs\quanbao\end_www\api\1" />
+      <recent name="D:\Program Files\xampps\htdocs\quanbao\end_admin\extension\end_device_manage" />
+      <recent name="D:\Program Files\xampps\htdocs\quanbao" />
+      <recent name="D:\Program Files\xampps\htdocs\quanbao\end_www\model\exception_log" />
+      <recent name="D:\Program Files\xampps\htdocs\quanbao\end_admin\library" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.api.php">
+    <configuration default="false" name="api.php" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/goodmessage/end_system/api.php">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="39cadb1b-92ef-47ce-b143-c8d92179f400" server_name="apache-2.4.9">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.api.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.api.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff08788e-ba47-429b-a508-262067f8a73b" name="默认的" comment="" />
+      <created>1404985214634</created>
+      <updated>1404985214634</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <editor active="false" />
+    <layout>
+      <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2859375" sideWeight="0.6618421" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27936962" sideWeight="0.33684212" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3322785" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.61165047" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="检验" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23679727" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27936962" sideWeight="0.33684212" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2159864" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3184569" sideWeight="0.6618421" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="检验" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="first Git" />
+    <option name="LAST_COMMIT_MESSAGE" value="first Git" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="33" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_system/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="2" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" vertical-offset="1992" max-vertical-offset="2760" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="33" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_system/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="17" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2760" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_system/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="17" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2760" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_second.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="63" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="984" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="33" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="74" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="193" max-vertical-offset="1104" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_second.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="63" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="984" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="33" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="2" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1128" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_second.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="24" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="23" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="17" selection-start="421" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_country.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="30" selection-start="456" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="936" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_hour.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="24" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="624" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_system/library/model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="5" selection-start="1581" selection-end="1818" vertical-scroll-proportion="0.0" vertical-offset="1482" max-vertical-offset="4370" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_admin/view/meta.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="436" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_admin/extension/end_device_manage/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="271" column="25" selection-start="10819" selection-end="10819" vertical-scroll-proportion="0.77234805" vertical-offset="5856" max-vertical-offset="15216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_system/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="30" selection-start="2718" selection-end="2718" vertical-scroll-proportion="-0.6619718" vertical-offset="2724" max-vertical-offset="3720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="176" selection-end="176" vertical-scroll-proportion="0.16901408" vertical-offset="0" max-vertical-offset="852" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="180" selection-end="180" vertical-scroll-proportion="0.17539586" vertical-offset="0" max-vertical-offset="821" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="9" selection-start="2070" selection-end="2070" vertical-scroll-proportion="-7.90099" vertical-offset="7632" max-vertical-offset="21576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="173" selection-end="173" vertical-scroll-proportion="0.16901408" vertical-offset="0" max-vertical-offset="852" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.23386115" vertical-offset="0" max-vertical-offset="821" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_system/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.71513706" vertical-offset="1032" max-vertical-offset="4368" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_admin/controller/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="0.590743" vertical-offset="115" max-vertical-offset="936" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_admin/library/JPush/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="528" selection-end="535" vertical-scroll-proportion="0.47887325" vertical-offset="0" max-vertical-offset="852" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_system/library/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="49" selection-end="49" vertical-scroll-proportion="-1.9749702" vertical-offset="1777" max-vertical-offset="2976" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_admin/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_historyday.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="47" selection-start="1792" selection-end="1800" vertical-scroll-proportion="1.6877235" vertical-offset="0" max-vertical-offset="2448" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_system/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="25" selection-start="1806" selection-end="1812" vertical-scroll-proportion="0.683313" vertical-offset="1359" max-vertical-offset="2592" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_second.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="55" selection-start="1124" selection-end="1131" vertical-scroll-proportion="0.6853397" vertical-offset="193" max-vertical-offset="1176" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_grid_new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="99" selection-start="284" selection-end="292" vertical-scroll-proportion="0.08462455" vertical-offset="97" max-vertical-offset="1368" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/wechat20140717.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="12" selection-start="12769" selection-end="12769" vertical-scroll-proportion="0.0" vertical-offset="1128" max-vertical-offset="18792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_admin/view/category_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="350" selection-end="350" vertical-scroll-proportion="0.7941176" vertical-offset="48" max-vertical-offset="864" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/view/default/script.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="104" selection-start="544" selection-end="544" vertical-scroll-proportion="0.40808824" vertical-offset="105" max-vertical-offset="432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_admin/view/category_list_item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="55" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.0" vertical-offset="1368" max-vertical-offset="1752" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_admin/view/item_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="519" selection-end="519" vertical-scroll-proportion="0.14183553" vertical-offset="169" max-vertical-offset="1656" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_historyhour_new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="285" selection-end="285" vertical-scroll-proportion="0.38613862" vertical-offset="0" max-vertical-offset="2472" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/internet_control_baseStation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="35" selection-start="979" selection-end="989" vertical-scroll-proportion="0.40047675" vertical-offset="216" max-vertical-offset="1152" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_hour.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.77115613" vertical-offset="1" max-vertical-offset="1272" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="350" selection-end="360" vertical-scroll-proportion="0.3432658" vertical-offset="0" max-vertical-offset="888" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_country.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="29" selection-start="744" selection-end="755" vertical-scroll-proportion="0.71513706" vertical-offset="0" max-vertical-offset="984" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="42" selection-start="199" selection-end="231" vertical-scroll-proportion="0.20023838" vertical-offset="0" max-vertical-offset="960" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_historyactivity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="48" selection-start="1532" selection-end="1551" vertical-scroll-proportion="-9.205129" vertical-offset="697" max-vertical-offset="1752" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_mmsi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="60" selection-start="266" selection-end="316" vertical-scroll-proportion="0.114421934" vertical-offset="216" max-vertical-offset="1536" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_historyhour.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="960" selection-end="960" vertical-scroll-proportion="0.18688118" vertical-offset="809" max-vertical-offset="2352" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_aisshiprealtime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="-0.25864124" vertical-offset="793" max-vertical-offset="1704" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_grid_area.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="170" selection-start="264" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="1368" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end_www/api/1/shipping_abstract_grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="189" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

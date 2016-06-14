@@ -1,0 +1,8 @@
+MIDlet-1: HelloWorld,,HelloWorld.HelloWorld
+MIDlet-Jar-Size: 1161
+MIDlet-Jar-URL: HelloWorld.jar
+MIDlet-Name: HelloWorld MIDlet Suite
+MIDlet-Vendor: MIDlet Suite Vendor
+MIDlet-Version: 1.0.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: IMP-NG-2.0

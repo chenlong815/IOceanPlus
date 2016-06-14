@@ -1,0 +1,155 @@
+<div id="sys_table">
+<?php if($item_id):?>
+<form action="admin.php?m=edit_item&p=item&item_id=<?php echo $item_id; ?>&category_id=<?php echo $category_id; ?>" method="post" enctype="multipart/form-data">
+<?php else: ?>
+<form action="admin.php?m=new_item&p=item&category_id=<?php echo $category_id; ?>" method="post"  enctype="multipart/form-data" >
+<?php endif; ?>
+<input type="hidden" name="return_to" value="<?php echo $content['return_to']; ?>" />
+	<table >
+		<tr>
+			<th class="sys_tit_bg" colspan="2">
+				<h2 class="sys_h2"><?php if ($item_id):?>编辑<?php else: ?>添加<?php endif; ?></h2>
+			</th>
+		</tr>
+    	<tr>
+        	<td valign="top">
+				栏目<span style="color:red">*</span>
+			</td>
+        	<td>
+				<div><select name="category_id" >
+                	<option value="0">请选择...</option>
+                		<?php echo $category_tree; ?>
+                	</select>
+				</div>
+            </td>
+       	</tr>
+    
+        <?php
+/*
+根据配置生成编辑页面的各个输入字段
+*/
+	if (!$fields) $fields = array();
+	foreach($fields as $name=>$data)
+	{
+		if (preg_match('/^__/',$name)) continue;
+		if (!$data['type']) $data['type'] = 'text';
+		echo "<tr><td>$data[name]";
+		if (!$data['null']) echo '<span style="color:red">*</span>';
+		echo "</td>";
+		echo '<td>';
+		
+		$data['style'] .= ($data['width'])?'width:'.$data['width'].'px;':'';
+		$data['style'] .= ($data['height'])?'height:'.$data['height'].'px;':'';
+		
+		$data['field_name'] = $name;
+		$data['__orig_content'] = $content[$name];
+		$data['content'] = $content[$name];
+		
+		if (!$data['content'] && $data['content'] !== 0 && $data['default']) $data['content'] = $data['default'];
+		
+		//显示之前的预处理
+		if ($data['prefilter'] && function_exists($data['prefilter']))
+		{
+			$data['content'] = $data['prefilter']($data['content']);
+		}
+	
+		if (function_exists($_func = 'endcms_input_'.$data['type']))
+		{
+			$_func($data); 
+			//这些函数在helper/html.php里面
+		}
+		echo "</td></tr>\n";
+	}
+?>
+
+<script>
+$(function()
+{
+	var remove_row;
+	$('span.del-row-bt').click(remove_row = function()
+	{
+		$(this).parents('div.list-row-wrapper').remove();
+	});
+	$('span.add-row-bt').click(function()
+	{
+		var div = $(this).parents('div.list-row-wrapper');
+		var remove = div.find('.add-row-bt').attr('remove');
+		var cloned = div.clone();
+		cloned.insertAfter(div)
+			.find('.add-row-bt')
+			.removeClass('add-row-bt')
+			.addClass('del-row-bt')
+			.html(remove)
+			.click(remove_row);
+		cloned.find('input').val('');
+	});
+	var role_rights = $("input[name='rights']").attr('value');
+	if(role_rights)
+	{
+		var role_rights_arr = role_rights.split(",");
+		for(var i=0;i<role_rights_arr.length;i++)
+		{
+			$(".select_to_string").each(function()
+			{
+				if($(this).attr('data-name')==role_rights_arr[i])
+				{
+					$(this).attr("checked",true);
+				}
+			});
+		}
+	}
+	$(".select_to_string").click(function(){
+		var dataarr = [];
+		// console.log($(this).attr("checked"))
+		$(".select_to_string").each(function(i){
+			if($(this).attr('checked')==true)
+			{
+				var dataname = $(this).attr("data-name");
+				dataarr.push(dataname);
+			}
+		});
+		var datastr = dataarr.join(",");
+
+		$("input[name='rights']").attr('value',datastr);
+	})
+
+
+});
+</script>
+
+        <tr>
+        	<td colspan="2" align="center">
+				<input type="submit" name="save" value="保存" /> &nbsp;
+				<?php if($statuses):?>
+				<?php foreach($statuses as $key=>$s): ?>
+					<input type="submit" name="saveas[<?php echo $key; ?>]" value="保存为'<?php echo strip_tags($s);?>'" /> &nbsp;
+				<?php endforeach; ?>
+				<?php endif; ?>
+				<input type="button" value=" 返回"  onclick="if (confirm('确定要返回吗（修改的内容不会被保存）？')) history.go(-1);" /> &nbsp;
+			</td>
+        </tr>
+     </table>
+     
+        
+   </form>
+</div>
+
+<script>
+$(function()
+{
+	$('option[status][status!=<?php echo $this_category['status']; ?>]').attr('disabled','disabled').each(function()
+	{
+		var depth = 0,node = this,lastNode;
+		while(node.tagName.toLowerCase() != 'select')
+		{
+			if (node.tagName.toLowerCase() == 'optgroup') depth++;
+			lastNode = node;
+			node = node.parentNode;
+		}
+		var space = '';
+		for(var i = 0;i<depth;i++) space+= ' ';
+		$('<optgroup label="'+space+$(this).html()+'"></optgroup>').insertAfter(lastNode);
+		$(this).remove();
+	});
+});
+</script>

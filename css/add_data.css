@@ -1,0 +1,30 @@
+.input-table{}
+.input-table tr th,td{
+    border: 1px solid #e5e5e5;
+    padding: 5px;
+}
+tr td .input-tiny{
+    width: 19px;
+    margin-bottom: 0px;
+}
+.input-name{
+width: 150px;
+float: left;
+margin-left: 10px;
+}
+#upload-form{
+    margin-top: 11px;
+}
+#upload-form input{
+    width: 300px;
+    height: 25px;
+}
+#upload-form #upload-select{
+    width: 104px;
+}
+#upload-form .upload-btn{
+    width: 229px;
+    height: 38px;
+    letter-spacing: 11px;
+    font-size: 1.2em;
+}

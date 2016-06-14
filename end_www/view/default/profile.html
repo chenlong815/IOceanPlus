@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- INCLUDE meta.html -->
+	<title>设置 - {$config.site_name}</title>
+</head>
+<body>
+
+<!-- INCLUDE header.html -->
+
+<div id="container" class="row-fluid">
+	<!-- INCLUDE sidebar.html -->
+	<div class="span10" style="padding-top:10px;">
+		<!-- INCLUDE crumbs.html -->
+		<div id="content-container" class="row">
+			<div class="span5">
+				<form id="profile-form" class="form-horizontal" method="post">
+					<div class="control-group">
+						<label class="control-label" for="name">姓名：</label>
+						<div class="controls">
+							<input type="text" id="name" name="name" placeholder="姓名" value="{$userinfo.name}" required>
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="phone">手机：</label>
+						<div class="controls">
+							<input type="text" id="phone" name="phone" placeholder="手机号" value="{$userinfo.phone}" required>
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="name">Email：</label>
+						<div class="controls">
+							<input type="email" id="email" name="email" placeholder="Email" value="{$userinfo.email}" required>
+						</div>
+					</div>
+					<div class="controls">
+						<button id="submit-pro" type="submit" class="btn">保存</button>
+					</div>
+				</form>
+			</div>
+			<div class="span5">
+				<div id="photo-image">
+					<img id="avatar" src="{if($userinfo.avatar)}{$userinfo.avatar}{else}img/noimage.jpg{/if}" class="img-polaroid" style="width:100px;" />
+				</div>
+				<form action="?p=upload_photo" method="post" enctype="multipart/form-data" target="hiddenframe">
+					<input type="file" name="image"><br>
+					<input type=submit value="上传头像" class="btn">
+				</form>
+				<iframe name="hiddenframe" id="hiddenframe" style="display:none;"></iframe>
+			</div>
+		</div>
+		<!-- INCLUDE footer.html -->
+	</div>
+</div>
+
+
+<!-- INCLUDE script.html -->
+<script type="text/javascript">
+function upload_photo_callback(url) {
+	$('#avatar').attr('src',url);
+}
+
+$(function() {
+	$("#profile-form").submit(function(evt) {
+		evt.preventDefault();
+	
+		var data = {};
+		$(this).find('input[name]').each( function() {
+			data[$(this).attr('name')] = $(this).val();
+		});
+
+		$("#submit-pro").attr('disabled','disabled').addClass('disabled').val("保存中...");
+
+		$.post("?p=profile",data,function(s) {
+				$("#submit-pro").removeAttr('disabled').removeClass('disabled').val("保存");
+				if (s == 'ok')
+				{
+					alert("保存成功。");
+				}
+				else
+				{
+					alert(s);
+				}
+			},'text');
+		return false;
+	});
+});
+</script>
+</body>
+</html>

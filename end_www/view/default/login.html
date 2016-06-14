@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- INCLUDE meta.html -->
+	<title>登录 - {$config.site_name}</title>
+</head>
+<body>
+
+<!-- INCLUDE login-header.html -->
+<div class="container-fluid" style="padding-left:0; padding-right:0">
+	<div class="row-fluid">
+		<div class="span12">
+			<div class="carousel slide" id="carousel-707937">
+				<ol class="carousel-indicators">
+					<li data-slide-to="0" data-target="#carousel-707937">
+					</li>
+					<li data-slide-to="1" data-target="#carousel-707937" class="active">
+					</li>
+					<li data-slide-to="2" data-target="#carousel-707937">
+					</li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item">
+						<img alt="" src="img/1.jpg" />
+						<div class="carousel-caption">
+							<h4>
+								棒球
+							</h4>
+							<p>
+								棒球运动是一种以棒打球为主要特点，集体性、对抗性很强的球类运动项目，在美国、日本尤为盛行。
+							</p>
+						</div>
+					</div>
+					<div class="item active">
+						<img alt="" src="img/2.jpg" />
+						<div class="carousel-caption">
+							<h4>
+								冲浪
+							</h4>
+							<p>
+								冲浪是以海浪为动力，利用自身的高超技巧和平衡能力，搏击海浪的一项运动。运动员站立在冲浪板上，或利用腹板、跪板、充气的橡皮垫、划艇、皮艇等驾驭海浪的一项水上运动。
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" src="img/3.jpg" />
+						<div class="carousel-caption">
+							<h4>
+								自行车
+							</h4>
+							<p>
+								以自行车为工具比赛骑行速度的体育运动。1896年第一届奥林匹克运动会上被列为正式比赛项目。环法赛为最著名的世界自行车锦标赛。
+							</p>
+						</div>
+					</div>
+				</div> <a data-slide="prev" href="#carousel-707937" class="left carousel-control">‹</a> <a data-slide="next" href="#carousel-707937" class="right carousel-control">›</a>
+			</div>
+
+			<div class="span4 offset7" style="top:130px; position: fixed; color:#fff; background:rgba(0,0,0,0.4)">
+				<form id="login-form" method="post" class="form-horizontal">
+					<legend><h1 class="text-center">登录</h1></legend>
+					<div class="control-group">
+						<label class="control-label" for="">用户名</label>
+						<div class="controls">
+							<input type="text" id="" name='username' placeholder="用户名..." required>
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="">密码</label>
+						<div class="controls">
+							<input type="password" id="" name='password' placeholder="密码..." required>
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for=""><img src="end_www/controller/get_code.php" alt="" title="看不清，点击换一张" id="getcode_num" style="cursor:pointer"></label>
+						<div class="controls">
+							<input type="text" id="get_code" name='check_code' placeholder="请输入验证码">
+						</div>
+					</div>
+					<div class="control-group">
+						<div class="controls">
+							<button type="submit" id="submit-btn" class="btn btn-success">登陆</button>
+							<a role="button" class="btn" data-toggle="modal" data-target="#register">注册</a>&nbsp;&nbsp;<a href="?p=forget">忘记密码?</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="register" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<h3 id="myModalLabel">注册</h3>
+	</div>
+	<form id="register-form" method="post" class="form-horizontal">
+		<div class="modal-body">
+			<div class="control-group">
+				<label class="control-label" for="">用户名：</label>
+				<div class="controls">
+					<input type="text" id="" name='username' placeholder="用户名..." required>
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="password">密码：</label>
+				<div class="controls">
+					<input type="password" id="password" name='password' placeholder="密码..." required>
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="confirmPassword">确认密码：</label>
+				<div class="controls">
+					<input type="password" id="confirmPassword" name='confirmPassword' placeholder="确认密码..." required>
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="email">email：</label>
+				<div class="controls">
+					<input type="email" id="email" name='email' placeholder="email..." required>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+			<button id="submit-reg" class="btn btn-success">注册</button>
+		</div>
+	</form>
+</div>
+
+<!-- INCLUDE footer.html -->
+<!-- INCLUDE script.html -->
+<script type="text/javascript">
+$(function() {
+	// 轮播图片控制
+	$('.carousel').carousel({
+		interval: 5000
+	});
+
+	$("#getcode_num").click(function(){
+		 $(this).attr("src",'end_www/controller/get_code.php?' + Math.random()); 
+	});
+	
+	$('#login-form').submit(function(evt)
+	{
+		evt.preventDefault();
+
+		var data = {};
+		$(this).find('input[name]').each(function()
+		{
+			data[$(this).attr('name')] = $(this).val();
+		});
+
+		// if(!data.check_code)
+		// {
+		// 	alert('请输入验证码');
+		// 	return;	
+		// }
+		
+		//data.remember = $('#remember').is(':checked')?'yes':'no';
+		
+		$('#submit-btn').attr('disabled','disabled').addClass('disabled').val('登录中...');
+		$.post('?p=login',data,function(s)
+		{
+			$('#submit-btn').removeAttr('disabled').removeClass('disabled').val('登录');
+			if (s == 'ok')
+			{
+				location = './';
+			}
+			else
+			{
+				alert(s);
+			}
+		},'text');
+		
+		return false;
+	});
+
+	$('#register-form').submit(function(evt)
+	{
+		evt.preventDefault();
+
+		var data = {};
+		$(this).find('input[name]').each(function()
+		{
+			data[$(this).attr('name')] = $(this).val();
+		});
+	
+		if (data.password != data.confirmPassword)
+		{
+			alert("两次输入的密码不一致。");
+			return;
+		}
+		
+		$('#submit-reg').attr('disabled','disabled').addClass('disabled').val('注册中...');
+		$.post('?p=register',data,function(s)
+		{
+			$('#submit-reg').removeAttr('disabled').removeClass('disabled').val('注册');
+			if (s == 'ok')
+			{
+				location = './';
+			}
+			else
+			{
+				alert(s);
+			}
+		},'text');
+		
+		return false;
+	});
+});
+</script>
+</body>
+</html>

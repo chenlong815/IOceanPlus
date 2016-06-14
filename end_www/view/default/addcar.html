@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- INCLUDE meta.html -->
+	<title>设置 - {$config.site_name}</title>
+</head>
+<body>
+
+<!-- INCLUDE header.html -->
+
+<div id="container" class="row-fluid">
+	<!-- INCLUDE sidebar.html -->
+	<div class="span10" style="padding-top:10px;">
+		<!-- INCLUDE crumbs.html -->
+		<div id="content-container" class="row">
+			<form id="addcar-form" method="post" class="form-horizontal">
+				<div class="span5">
+					<div class="control-group">
+						<label class="control-label" for="license">车牌号：</label>
+						<div class="controls">
+							<input type="text" id="license" name='license' placeholder="" required>
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="model">型号：</label>
+						<div class="controls">
+							<input type="text" id="model" name='model' placeholder="" >
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="maintenancemiles">保养里程数：</label>
+						<div class="controls">
+							<input type="text" id="maintenancemiles" name='maintenancemiles' placeholder="" >
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="currentmiles">当前里程数：</label>
+						<div class="controls">
+							<input type="text" id="currentmiles" name='currentmiles' placeholder="" >
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="drivinglicensevalidity">行驶证有效期：</label>
+						<div class="controls">
+							<input type="text" id="drivinglicensevalidity" name='drivinglicensevalidity' class="datepicker" placeholder="" >
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="comment">备注：</label>
+						<div class="controls">
+							<input type="text" id="comment" name='comment' placeholder="" >
+						</div>
+					</div>
+				</div>
+				<div class="span5">
+					<div class="control-group">
+						<label class="control-label" for="brand">品牌：</label>
+						<div class="controls">
+							<input type="text" id="brand" name='brand' placeholder="" >
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="emissions">排量：</label>
+						<div class="controls">
+							<input type="text" id="emissions" name='emissions' placeholder="" >
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="initializemiles">初始里程数：</label>
+						<div class="controls">
+							<input type="text" id="initializemiles" name='initializemiles' placeholder="" >
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="roadfeesvalidity">养路费有效期：</label>
+						<div class="controls">
+							<input type="text" id="roadfeesvalidity" name='roadfeesvalidity' class="datepicker" placeholder="" >
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="insurancevalidity">保险有效期：</label>
+						<div class="controls">
+							<input type="text" id="insurancevalidity" name='insurancevalidity' class="datepicker" placeholder="" >
+						</div>
+					</div>
+				</div>
+				<div class="span10 text-center">
+						<button id="submit-add" class="btn btn-primary">保存</button>
+						<button id="reset" type="reset" class="btn">重置</button>
+				</div>
+			</form>
+		</div>
+		<!-- INCLUDE footer.html -->
+	</div>
+</div>
+
+
+<!-- INCLUDE script.html -->
+<script type="text/javascript">
+$(function() {
+	showDatePocker(".datepicker");
+
+	$('#addcar-form').submit(function(evt)
+	{
+		evt.preventDefault();
+		$('#submit-add').attr('disabled','disabled').addClass('disabled').val('保存中...');
+
+		var data = $('#addcar-form').serialize();
+		
+		$.post('?p=car&do=add',data,function(s)	{
+			var ret = $.parseJSON(s);
+			$('#submit-add').removeAttr('disabled').removeClass('disabled').val('保存');
+			if (ret.r == 'ok')
+			{
+				alert('保存成功。');
+				location = './?c=setting&p=car';
+			}
+			else
+			{
+				alert(ret.msg);
+			}
+		},'text');
+		
+		return false;
+	});
+});
+</script>
+</body>
+</html>

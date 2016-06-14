@@ -1,0 +1,80 @@
+body,html
+{
+    margin:0;padding:0;
+}
+/*div*/
+#print-div,#table-div {
+    width: 794px;
+	font-size:10pt;
+    margin: 0 auto;
+    page-break-after: always;
+}
+.last-div{
+    page-break-after: avoid !important;
+}
+/*end div*/
+
+/*table*/
+#print-div table,#table-div table {
+    width: 100%;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+#table-div table {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+/*table*/
+
+/*timu*/
+#table-div table .list {
+    width: 50px;
+    text-align: center;
+
+}
+#table-div table .title{
+    width: 294px;
+    text-align: left;
+}
+#table-div table .value{
+    width: 450px;
+}
+/*timu*/
+
+#print-div table caption, #table-div table caption {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 15px;
+}
+
+#print-div th,#table-div th {
+    text-align: center;
+    vertical-align: top;
+}
+
+#print-div table th,#print-div table td
+{
+	padding:8px;
+    border: 1px solid #000000;
+	width: 1px;
+}
+#table-div table th,#table-div table td
+{
+    padding:8px;
+    border: 1px solid #000000;
+}
+
+#print-div table td, #table-div table td  {
+	line-height:1.6;
+	padding:3px 5px 5px 10px;
+}
+
+#print-div table thead td {
+    font-size: 20px;
+    font-weight: bold;
+}
+.options-span {
+    margin-right: 15px;
+}
+

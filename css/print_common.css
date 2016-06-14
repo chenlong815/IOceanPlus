@@ -1,0 +1,5 @@
+#header { display:none; }
+.container { width:100%; margin:0; padding:0; }
+.form-horizontal .control-label { width:120px; }
+.form-horizontal .controls {margin-left: 140px;}
+.form-horizontal .control-group {margin-bottom: 0px; line-height:1.6;}

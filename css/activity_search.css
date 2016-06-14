@@ -1,0 +1,39 @@
+.input-lines{
+    padding: 10px 22px;
+}
+.input-cats{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+    width: 24%;
+}
+.input-cats span{
+    float: left;
+    line-height: 2.7em;
+}
+.input-cats .span2{
+    height: 26px;
+}
+.input-cats-select{
+    width: 16.3%;
+    display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+.input-cats-select select{
+    width: 117px;
+}
+.line2{
+    padding: 10px 0px;
+}
+.line3{
+    padding: 10px 10px;
+    margin-left: 2%;
+}
+.line3 select{
+    width: 119px;
+}
+.line3 .input-cats-select{
+    width: 19%;
+    padding-left: 0%;
+}

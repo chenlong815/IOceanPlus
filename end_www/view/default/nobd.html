@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- INCLUDE meta.html -->
+	<title>设置 - {$config.site_name}</title>
+</head>
+<body>
+
+<!-- INCLUDE header.html -->
+
+<div id="container" class="row-fluid">
+	<!-- INCLUDE sidebar.html -->
+	<div class="span10" style="padding-top:10px;">
+		<!-- INCLUDE crumbs.html -->
+		<div id="content-container">
+			<div><button type="button" class="btn-link" data-toggle="collapse" data-target="#addnobd"><i class="icon-plus"></i></button></div>
+			<div id="addnobd" class="collapse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<form id="addnobd-form" method="post" class="form-horizontal">
+					<div class="modal-body">
+						<div class="control-group">
+							<label class="control-label">车牌号：</label>
+							<div class="controls">
+								<select name='car_id'>
+									{foreach($licenses as $license)}
+									<option value="{$license.car_id}">{$license.license}</option>
+									{/foreach}
+								</select>
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="sn">序列号：</label>
+							<div class="controls">
+								<input type="text" id="sn" name='sn' placeholder="序列号..." required>
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="pw">密码：</label>
+							<div class="controls">
+								<input type="password" id="pw" name='pw' placeholder="密码..." required>
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="sim_no">SIM卡号：</label>
+							<div class="controls">
+								<input type="text" id="sim_no" name='sim_no' placeholder="SIM卡号..." required>
+							</div>
+						</div>
+						<div class="control-group">
+							<div class="controls">
+								<button type="reset" class="btn">清空</button>
+								<button id="submit-add" class="btn btn-primary">保存</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+			<table class="table table-condensed table-hover">
+				<thead id="list-head">
+					<tr>
+						<th>序列号</th>
+						<th>SIM卡号</th>
+						<th>激活时间</th>
+						<th>绑定车辆</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				{foreach($nobds as $nobd)}
+				<tr id="{catenate('item-tr-',$nobd.nobd_id)}">
+					<td>{$nobd.sn}</td>
+					<td>{$nobd.sim_no}</td>
+					<td>{$nobd.active_time}</td>
+					<td>{$nobd.license}</td>
+					<td><button class="btn-link" onclick="nobd_del({$nobd.nobd_id},{$nobd.car_id})">解除绑定</button></td>
+				</tr>
+				{/foreach}
+			</table>
+		</div>
+		<!-- INCLUDE footer.html -->
+	</div>
+</div>
+
+<!-- INCLUDE script.html -->
+<script type="text/javascript">
+function nobd_del(nid,cid) {
+	if (confirm("确认接触绑定？")) {
+		var data = {};
+		data['nobd_id'] = nid;
+		data['car_id'] = cid;
+
+		$.post('?p=nobd&do=del',data,function(s) {
+			var ret = $.parseJSON(s);
+			if (ret.r == 'ok') {
+				alert('解绑成功。');
+				$("#item-tr-"+nid).remove();
+			}
+			else {
+				alert(ret.msg);
+			}
+		},'text');
+	}
+}
+
+$(function() {
+	$('#addnobd-form').submit(function(evt)	{
+		evt.preventDefault();
+		
+		$('#submit-add').attr('disabled','disabled').addClass('disabled').val('保存中...');
+
+		var data;
+		data = $(this).serialize();
+		$.post('?p=nobd&do=add',data,function(s) {
+			$('#submit-add').removeAttr('disabled').removeClass('disabled').val('保存');
+			var ret = $.parseJSON(s);
+			if (ret.r == 'ok') {
+				alert('保存成功。');
+				$("#list-head").after("<tr id='item-tr-"+ret.data['nobd_id']+"''><td>"+ret.data['sn']+"</td><td>"+ret.data['sim_no']+"</td><td>"+ret.data['active_time']+"</td><td>"+ret.data['license']+"</td><td><button class='btn-link' onclick='nobd_del("+ret.data['nobd_id']+","+ret.data['car_id']+")'>解除绑定</button></td></tr>");
+			}
+			else {
+				alert(ret.msg);
+			}
+		},'text');
+		
+		return false;
+	});
+});
+</script>
+</body>
+</html>
